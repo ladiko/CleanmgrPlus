@@ -1,6 +1,6 @@
 [Info]
 Title=Google Chrome History
-Description=Clean-up Google Chrome History
+Description=Clean-up Google Chrome History (Cookies, Site-specific preferences, Saved form and Session data, Autocomplete history)
 Author=Builtbybel
 AuthorURL=http://www.builtbybel.com
 
@@ -12,4 +12,4 @@ File3=DeleteFile|%LocalAppData%\Google\Chrome\User Data\Default\Visited Links
 File4=DeleteFile|%LocalAppData%\Google\Chrome\User Data\Default\Cookies 
 File5=DeleteFile|%LocalAppData%\Google\Chrome\User Data\Default\Web Data 
 File6=DeleteFile|%LocalAppData%\Google\Chrome\User Data\Default\Current Session 
-File7=DeleteFile|%LocalAppData%\Google\Chrome\User Data\Default\Last Session 
+File7=DeleteFile|%LocalAppData%\Google\Chrome\User Data\Default\Last Session

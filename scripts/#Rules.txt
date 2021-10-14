@@ -2,11 +2,8 @@
 ==========================================================================================================
 		Cleanmgr+ - Scripting engine v0.6.4 (last updated June/04/2019)
 ==========================================================================================================
-
-
 Supported sections
 ----------------------
-
 
 [Info]
 		This section provides script Information only
@@ -21,13 +18,11 @@ Supported sections
 		Custom Variables can be defined in the [Variables] section. The defined variables belongs to the [Files] section
 		MyVar=%UserProfile%\Documents
 
-
 Supported commands
 ----------------------
 
-
 Delete files: 
-		File1=DeleteFile|%AppData%\Example App\tmp.txt	 
+		File1=DeleteFile|%AppData%\Example App\tmp.txt
 		Supports wildcards "*.tmp" and file types with same filename "tmp.*
 		
 		Supported parameter: 
@@ -70,6 +65,4 @@ Echo:
 		File1=Echo|Dir $FirefoxProfileCache$\cache2\entries /s /b /o:gn
 		Optional you can use the Echo command to run a Preview in Windows command prompt
 ----------------------------------------------------------------------------------------------------------
-
-
 https://www.builtbybel.com
